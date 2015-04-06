@@ -1,0 +1,116 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+*{
+	font-family:'Open Sans', 'Helvetica Neue', Helvetica, sans-serif!important;
+}
+
+html, body{
+	height:100%;
+}
+
+.body-fill{
+	background:#222;
+}
+
+/* 11-up Grid */
+
+.header-color-block {
+	background:#fff;
+	float:left;
+	height:35px;
+  	width: 9.090%;
+}
+
+.color-block-1{
+	background: #F40000;
+}
+
+.color-block-2{
+	background: #F4009C;
+}
+
+.color-block-3{
+	background: #C900F4;
+}
+
+.color-block-4{
+	background: #4E00F4;
+}
+
+.color-block-5{
+	background: #004BF4;
+}
+
+.color-block-6{
+	background: #00B5F4;
+}
+
+.color-block-7{
+	background: #00F4A0;
+}
+
+.color-block-8{
+	background: #53F400;
+}
+
+.color-block-9{
+	background: #F4D800;
+}
+
+.color-block-10{
+	background: #F88B00;
+}
+
+.color-block-11{
+	background: #F83A00;
+}
+
+/*
+@-webkit-keyframes subscribe {
+    0%   {background-color: #F40000;}
+    10%  {background-color: #F4009C;}
+    20%  {background-color: #C900F4;}
+    30%  {background-color: #4E00F4;}
+    40%  {background-color: #004BF4;}
+    50%  {background-color: #00B5F4;}
+    60%  {background-color: #00F4A0;}
+    70%  {background-color: #53F400;}
+    80%  {background-color: #F4D800;}
+    90%  {background-color: #F88B00;}
+    100% {background-color: #F83A00;}
+}
+
+@keyframes subscribe {
+    0%   {background-color: #F40000;}
+    10%  {background-color: #F4009C;}
+    20%  {background-color: #C900F4;}
+    30%  {background-color: #4E00F4;}
+    40%  {background-color: #004BF4;}
+    50%  {background-color: #00B5F4;}
+    60%  {background-color: #00F4A0;}
+    70%  {background-color: #53F400;}
+    80%  {background-color: #F4D800;}
+    90%  {background-color: #F88B00;}
+    100% {background-color: #F83A00;}
+}
+*/
+
+.subscribe-button{
+	background-color:transparent;
+	border:1px solid #fff;
+    font-weight:700;
+	outline:none;
+	transition:background-color .25s linear;
+}
+
+.subscribe-button:hover{
+	background-color:#2b2b2b;
+	outline:none;
+	transition:background-color .25s linear;
+}
+
+.subscribe-button:active{
+	background-color:#00B5F4;
+	outline:none;
+	transition:backround-color .25s linear;
+}
